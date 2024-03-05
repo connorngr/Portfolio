@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid;; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0px; /* Adjust as needed */
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(29 78 216 / var(--tw-bg-opacity));; }
+}
+.hero {
+width: 100%;
+animation: transitionIn 2.0s ease-in-out forwards;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.skills {
+width: 100%;
+animation: up 1.0s ease-in-out forwards;
+}
+.nav {
+width: 100%;
+animation: up 1.5s ease-in-out forwards;
+}
+
+
+@keyframes up {
+0% {
+  transform: translateY(-1400px);
+}
+100% {
+  transform: translateY(0px);
+}
+}
+
+
+
+@keyframes down {
+0% {
+  transform: translateY(1400px);
+}
+100% {
+  transform: translateY(0px);
+}
+}
