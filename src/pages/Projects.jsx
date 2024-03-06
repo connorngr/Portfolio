@@ -1,4 +1,5 @@
 import Card from "../components/Card"
+import { projects } from "../../public/Infos"
 import {motion, AnimatePresence} from "framer-motion"
 
 export default function Projects() {
@@ -27,7 +28,7 @@ export default function Projects() {
         </svg>
         <span className="relative">Hav </span>
       </span>
-      e a peek of my works below.
+      e a peek of my work below.
     </h2>
     <p className="text-sm text-gray-500 md:text-lg max-w-full">
       These are projects that I built for myself and school project that I've participated.
@@ -36,8 +37,9 @@ export default function Projects() {
   </motion.div>
   </AnimatePresence>
   <div className="grid gap-5 justify-items-center lg:grid-cols-2 md:grid-cols-2">
-        <Card />
-        <Card />
+        {projects.map((elem, index) => {
+          return <Card key={index} id={index} img={elem.imgSrc} title={elem.title} desc={elem.desc} personal={elem.personal}/>
+        })}
   </div>
         
 </div>

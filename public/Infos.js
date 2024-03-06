@@ -18,6 +18,19 @@ const infos = [{
   }
 ]
 
+const projects = [{
+  title: "Gemini Telegram ChatBot",
+  desc: ["Built etc etc"],
+  imgSrc: "images/exclusive/pproject.png",
+  personal: true
+},
+{
+  title: "Gym center management",
+  desc: ["Built etc etc"],
+  imgSrc: "images/exclusive/sproject.png",
+  personal: false
+}]
+
 const routes = [{
     title: "Skills",
     href: "/skills",
@@ -34,22 +47,22 @@ const routes = [{
 const links = [{
   name: "Linkedin",
   href: "https://www.freecodecamp.org/news/how-to-create-an-animated-hamburger-menu-in-react/",
-  img: "images/link.png"
+  img: "images/SM/linkedin.png"
 },
 {
   name: "Github",
   href: "https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/",
-  img: "images/link.png"
+  img: "images/SM/github.png"
 },
 {
   name: "Email",
   content: "hconnora@outlook.com",
-  img: "images/link.png"
+  img: "images/SM/email.png"
 },
 {
   name: "Phone & Zalo",
   content: "+84 969327140",
-  img: "images/link.png"
+  img: "images/SM/phone.png"
 }]
 
-export {infos, routes, links};
+export {infos, routes, links, projects};

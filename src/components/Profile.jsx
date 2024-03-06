@@ -36,19 +36,18 @@ export default function Profile({open, setOpen}) {
                 transition={{ duration: 0.8}}
              className="group lg:w-1/2 relative rounded-3xl  space-y-6 overflow-hidden">
               <img
-                className="mx-auto h-[26rem] w-full grayscale-[70%] object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NDY4MzM0Nzk0OTA5MzE4/top-10-most-beautiful-kpop-female-idols.jpg"
-                alt="woman"
+                className="mx-auto h-[26rem] w-full grayscale-[70%] object-cover object-bottom ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="images/exclusive/contact.png"
                 loading="lazy"
                 width="640"
                 height="805"
               />
-              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 pt-5 pb-8 dark:bg-gray-800 bg-gray-100 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 pt-5 pb-5 dark:bg-gray-800 bg-gray-100 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                 <div>
-                  <h4 className="text-xl font-semibold text-gray-700 dark:text-white">Jisoo</h4>
-                  <span className="block text-sm text-gray-500">Unemployed</span>
+                  <h4 className="text-xl font-semibold text-gray-700 dark:text-white">Hoang Anh</h4>
+                  <span className="block text-sm text-gray-500 pb-8">Junior IT undergraduate</span>
                 </div>
-                <p className="mt-8 text-gray-500">Hot Chick <br/> Ever</p>
+                <p className="mt-8 text-gray-400 text-right">Nguyen Hue Walking St.</p>
               </div>
               </motion.div>
             </div>
