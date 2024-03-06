@@ -9,7 +9,7 @@ function Home() {
             <div className="typewriter mb-5">
                 <h1 className="mb-6 text-5xl font-extrabold tracking-tight leading-none xl:text-6xl text-gray-700 dark:text-white pt-5">Greetings! 👋<br/>I'm H.Anh.</h1>
             </div>
-            <p className="max-w-2xl font-light text-gray-500 md:text-xl lg:text-xl dark:text-gray-400 ">I'm an aspiring <b>IT professional</b> currently pursuing my <b>Bachelor of Engineering</b> @ <b>HUTECH University</b>. <br/>Passionate about technology and innovation, I'm constantly seeking to enhance my skills and contribute to the ever-evolving world of IT.</p>
+            <p className="max-w-2xl font-light text-gray-500 md:text-xl lg:text-xl dark:text-gray-400 ">An aspiring <b>IT professional</b> currently pursuing <b>Bachelor of Engineering</b> @ <b>HUTECH University</b>. <br/>Passionate about technology and innovation, I'm constantly seeking to enhance my skills and contribute to the ever-evolving world of IT.</p>
             <div className="flex mt-10 max-sm:justify-center">
                 <motion.button
                 whileHover={{ scale: 1.05}}
