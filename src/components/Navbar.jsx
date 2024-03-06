@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ThemeSwitcher from "../../public/ThemeSwtich";
 import { useEffect, useState } from "react";
 import {motion, AnimatePresence} from "framer-motion"
@@ -8,7 +8,6 @@ import Item from "./NavItem";
 
 function Nav() {
   const [open, setOpen] = useState(false);
-
   function toggleNav() {
       setOpen(!open);
   }
@@ -17,7 +16,9 @@ function Nav() {
         <nav className="nav bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="/" >
-        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
+        <img
+         src="images/Z5cP.gif" 
+        className="h-8 w-14 rounded-full text-yellow-50 object-cover" alt="Logo" />
         {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><HomeRoundedIcon /></span> */}
     </Link>
       <div className=" flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

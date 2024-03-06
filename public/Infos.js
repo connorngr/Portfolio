@@ -1,32 +1,34 @@
 
 const infos = [{
     title: "Programming languages",
-    desc: ["Python, Javascript, C, C#,...", "Markup languages: HTML, CSS.", "Advanced concepts: DSA, OOP."],
+    desc: ["Python, Javascript, C, C#,..."],
     imgSrc: "/images/coding.png"
   }, {
     title: "Frameworks",
-    desc: ["React, Node, Express, Flask, .Net for Windows Apps."],
+    desc: ["ReactJS, ExpressJS, .Net, Bootstrap, TailwindCSS,..."],
     imgSrc: "/images/cogwheel.png"
   }, {
     title: "Databases",
-    desc: ["NoSQL: To be filled", "RDBMS: SQL server."],
+    desc: ["NoSQL: MongoDB.", "RDBMS: PostgreSQL, SQL server."],
     imgSrc: "images/database.png"
   }, {
     title: "Miscellaneous",
-    desc: ["Version Control (Git, Github).", "IDEs (e.g., Visual Studio Code & PyCharm)", "RESTful APIs."],
+    desc: ["Version Control (Git, Github).", 
+    "IDEs (e.g., Visual Studio Code & PyCharm)", 
+    "RESTful APIs.",],
     imgSrc: "images/box.png"
   }
 ]
 
 const projects = [{
   title: "Gemini Telegram ChatBot",
-  desc: ["Built etc etc"],
+  desc: ["Bored? Chat with a banana!"],
   imgSrc: "images/exclusive/pproject.png",
   personal: true
 },
 {
   title: "Gym center management",
-  desc: ["Built etc etc"],
+  desc: ["Fully functional CRUD application written in C#"],
   imgSrc: "images/exclusive/sproject.png",
   personal: false
 }]
@@ -46,12 +48,12 @@ const routes = [{
 
 const links = [{
   name: "Linkedin",
-  href: "https://www.freecodecamp.org/news/how-to-create-an-animated-hamburger-menu-in-react/",
+  href: "https://www.linkedin.com/in/cnhg/",
   img: "images/SM/linkedin.png"
 },
 {
   name: "Github",
-  href: "https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/",
+  href: "https://github.com/connorngr",
   img: "images/SM/github.png"
 },
 {

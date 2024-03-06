@@ -7,14 +7,12 @@ export default function Card(props) {
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}>
-        <div className="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img className="rounded-t-lg h-52 w-96 object-cover" src={props.img} alt="" />
             </a>
             <div className="p-5">
-                <a href="">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-white">{props.title}</h5>
-                </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{props.desc}</p>
                 <div className="flex justify-between">
                 <motion.div

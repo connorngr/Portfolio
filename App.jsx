@@ -7,6 +7,8 @@ import Projects from "./src/pages/Projects";
 import ScrolToTop from "./public/ScrolToTop";
 import Contact from "./src/pages/Contact";
 import { useEffect } from "react";
+
+
 export default function App() {
     useEffect(() => {
         const handleContextmenu = e => {
