@@ -31,9 +31,13 @@ function Home() {
                 </motion.a> 
             </div>
         </div>
-        <div className="max-sm:inline-flex justify-center lg:mt-0 lg:col-span-5 lg:flex pt-5 ">
-            <img className="" src="images/exclusive/Hero.png" alt="mockup"/>
-        </div>                
+        <motion.div
+                        whileHover={{ scale: 1.05}}
+                whileTap={{ scale: 0.9 }}
+                transition={{ duration: 0.3 }}
+         className="max-sm:inline-flex justify-center lg:mt-0 lg:col-span-5 lg:flex pt-5 ">
+            <motion.img className="" src="images/exclusive/Hero.png" alt="mockup"/>
+        </motion.div>                
     </div>
     </div>
   )
