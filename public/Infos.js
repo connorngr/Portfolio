@@ -22,14 +22,16 @@ const infos = [{
 
 const projects = [{
   title: "Gemini Telegram ChatBot",
-  desc: ["Bored? Chat with a banana!"],
+  desc: ["Bored? Chat with a banana! Remember to login first."],
   imgSrc: "images/exclusive/pproject.png",
+  link: "https://t.me/friendlyM_Bot",
   personal: true
 },
 {
   title: "Gym center management",
-  desc: ["Fully functional CRUD application written in C#"],
+  desc: ["Fully functional CRUD application written in C#."],
   imgSrc: "images/exclusive/sproject.png",
+  link: "pdfs/sproject.pdf",
   personal: false
 }]
 

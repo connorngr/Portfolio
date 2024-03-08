@@ -4,7 +4,7 @@ import {motion, AnimatePresence} from "framer-motion"
 
 export default function Projects() {
     return (
-        <div className="px-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 py-28">
+        <div className="px-10 h-full mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 py-28">
     <AnimatePresence>
     <motion.div
         initial={{ opacity: 0, y: -100 }}
@@ -38,7 +38,12 @@ export default function Projects() {
   </AnimatePresence>
   <div className="grid gap-5 justify-items-center lg:grid-cols-2 md:grid-cols-2">
         {projects.map((elem, index) => {
-          return <Card key={index} id={index} img={elem.imgSrc} title={elem.title} desc={elem.desc} personal={elem.personal}/>
+          return <Card key={index} 
+          id={index} img={elem.imgSrc} 
+          title={elem.title} desc={elem.desc} 
+          personal={elem.personal}
+            link={elem.link}
+          />
         })}
   </div>
         

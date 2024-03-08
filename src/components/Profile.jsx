@@ -7,7 +7,7 @@ import Modal from "./Modal"
 export default function Profile({open, setOpen}) {
     
     return (
-        <div className="mt-24">
+        <div className="mt-24 h-full">
         <div className="xl:container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row max-w-screen-xl gap-10">
         <motion.div
