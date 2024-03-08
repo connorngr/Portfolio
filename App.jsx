@@ -7,7 +7,7 @@ import Projects from "./src/pages/Projects";
 import ScrolToTop from "./public/ScrolToTop";
 import Contact from "./src/pages/Contact";
 import { useEffect } from "react";
-import { Analytics } from "@vercel/analytics/react"
+
 
 export default function App() {
     useEffect(() => {
@@ -23,7 +23,6 @@ export default function App() {
     return (
         <>
         <Router>
-        <Analytics />
         <Nav />
         <ScrolToTop />
         <Routes>
