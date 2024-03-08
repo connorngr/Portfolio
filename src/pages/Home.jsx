@@ -1,11 +1,10 @@
 import {motion} from "framer-motion"
 import { links } from "../../public/Infos";
-import { Analytics } from "@vercel/analytics/react"
+
 
 function Home() {
   return (
     <div className="h-full pt-10 bg-white dark:bg-gray-900 hero ">
-    <Analytics />
     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto md:w-2/3 place-self-center lg:col-span-7 mt-12 lg:mt-50">
             <div className="typewriter mb-5">
