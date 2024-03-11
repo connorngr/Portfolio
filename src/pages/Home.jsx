@@ -12,14 +12,17 @@ function Home() {
             </div>
             <p className="max-w-2xl font-light text-gray-500 md:text-xl lg:text-xl dark:text-gray-400 ">An aspiring <b>IT professional</b> currently pursuing <b>Bachelor of Engineering</b> @ <b>HUTECH University</b>. <br/>Passionate about technology and innovation, I'm constantly seeking to enhance my skills and contribute to the ever-evolving world of IT.</p>
             <div className="flex mt-10 max-sm:justify-center">
-                <motion.button
+                <motion.a
                 whileHover={{ scale: 1.05}}
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 0.3 }}
-                 href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 dark:focus:ring-primary-900">
+                href="pdfs/CV.pdf" 
+                target="_blank"
+                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 dark:focus:ring-primary-900">
                     Download CV
-                    <svg className="ml-2" width="24" fill="currentColor" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
-                </motion.button>
+                <svg className="ml-2" width="24" fill="currentColor" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                  
+                </motion.a>
                 <motion.a
                 whileHover={{ scale: 1.05}}
                 whileTap={{ scale: 0.9 }}
@@ -33,7 +36,7 @@ function Home() {
             </div>
         </div>
         <motion.div
-                        whileHover={{ scale: 1.05}}
+                whileHover={{ scale: 1.05}}
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 0.3 }}
          className="max-sm:inline-flex justify-center lg:mt-0 lg:col-span-5 lg:flex pt-5 ">
