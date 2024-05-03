@@ -16,7 +16,7 @@
     "@mui/material": "^5.15.11",
     "@vercel/analytics": "^1.2.2",
     "firebase": "^10.8.1",
-    "firebase-tools": "^13.4.1",
+    "firebase-tools": "^13.6.0",
     "framer-motion": "^11.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
