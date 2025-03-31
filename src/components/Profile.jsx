@@ -47,7 +47,7 @@ export default function Profile({open, setOpen}) {
                   <h4 className="text-xl font-semibold text-gray-700 dark:text-white">Hoang Anh</h4>
                   <span className="block text-sm text-gray-500 pb-8">Senior IT undergraduate</span>
                 </div>
-                <p className="mt-8 text-gray-400 text-right">Nguyen Hue Walking St.</p>
+                <p className="mt-8 text-gray-400 text-right">Ba Son Bridge.</p>
               </div>
               </motion.div>
             </div>

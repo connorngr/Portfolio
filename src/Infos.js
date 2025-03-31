@@ -40,7 +40,7 @@ const projects = [
     title: "ByteStream",
     desc: ["Scrapes, summarizes, and categorizes the latest tech news using AI."],
     imgSrc: "images/projects/uc.jpg",
-    link: "https://github.com/yourusername/ByteStream",
+    link: "https://github.com/connorngr",
     personal: true,
     utilized: [
       "Next.js",
