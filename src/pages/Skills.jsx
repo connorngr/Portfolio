@@ -1,5 +1,5 @@
 import Skill from "../components/Skill"
-import { infos } from "../../public/Infos"
+import { infos } from "../Infos"
 import { motion } from "framer-motion"
 
 

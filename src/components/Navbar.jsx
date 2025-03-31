@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import ThemeSwitcher from "../../public/ThemeSwtich";
 import { useEffect, useState } from "react";
 import {motion, AnimatePresence} from "framer-motion"
-import { routes } from "../../public/Infos";
+import { routes } from "../Infos";
 import Item from "./NavItem";
 
 

@@ -1,5 +1,5 @@
 import {motion} from "framer-motion"
-import { links } from "../../public/Infos";
+import { links } from "../Infos";
 
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
                 whileHover={{ scale: 1.05}}
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 0.3 }}
-                href="pdfs/CV.pdf" 
+                href="pdfs/SWE Intern CV.pdf" 
                 target="_blank"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 dark:focus:ring-primary-900">
                     Download CV

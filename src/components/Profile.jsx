@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { links } from "../../public/Infos"
+import { links } from "../Infos"
 import ContactItem from "../components/ContactItem"
 import Modal from "./Modal"
 
@@ -37,7 +37,7 @@ export default function Profile({open, setOpen}) {
              className="group lg:w-1/2 relative rounded-3xl  space-y-6 overflow-hidden">
               <img
                 className="mx-auto h-[26rem] w-full grayscale-[70%] object-cover object-bottom ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                src="images/exclusive/contact.png"
+                src="images/exclusive/Looks great.png"
                 loading="lazy"
                 width="640"
                 height="805"
@@ -45,7 +45,7 @@ export default function Profile({open, setOpen}) {
               <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 pt-5 pb-5 dark:bg-gray-800 bg-gray-100 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                 <div>
                   <h4 className="text-xl font-semibold text-gray-700 dark:text-white">Hoang Anh</h4>
-                  <span className="block text-sm text-gray-500 pb-8">Junior IT undergraduate</span>
+                  <span className="block text-sm text-gray-500 pb-8">Senior IT undergraduate</span>
                 </div>
                 <p className="mt-8 text-gray-400 text-right">Nguyen Hue Walking St.</p>
               </div>
